@@ -1,0 +1,39 @@
+{
+  "name": "busansmartvillage",
+  "version": "1.0.0",
+  "description": "3D Smart Village Visualization Cesium-based Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LHKode/Busmart.git"
+  },
+  "keywords": [
+    "Cesium",
+    "3D",
+    "Web",
+    "Smart",
+    "City"
+  ],
+  "author": "Lam Hoang Khanh (LHK)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LHKode/Busmart/issues"
+  },
+  "homepage": "https://github.com/LHKode/Busmart#readme",
+  "devDependencies": {
+    "cesium": "^1.106.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
